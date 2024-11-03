@@ -4,7 +4,7 @@ import bcrypt
 
 #app = Flask(__name__)
 app = Flask(__name__, template_folder='templates')
-app.secret_key = "your_secret_key"  # Cambia esto por una clave secreta segura
+app.secret_key = "your_secret_key_fix"  # Cambia esto por una clave secreta segura
 
 # Datos de conexión a la base de datos
 DB_HOST = "b4axyho3yrtcor1vlcof-mysql.services.clever-cloud.com"
